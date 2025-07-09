@@ -48,7 +48,7 @@ a:hover {
 section {
     padding-top: 10vh;
     padding-bottom: 10vh;
-    padding-left: 35px;
+    padding-left: 25px;
     line-height: 2em;
     font-family: var(--fonte3);
     font-weight: bolder;
@@ -62,6 +62,7 @@ section > p {
 .normal {
     background-color: white;
     color: black;
+    padding-left: 25px;
 }
 
 .imagem {
@@ -84,7 +85,8 @@ section > p {
 
 .imagem > p {
     background-color: rgba(0, 0, 0, 0.479);
-    display: inline-block;
+    display: flex;
+    width: 250px;
     padding: 20px;
     border-radius: 20px;
     text-shadow: 1px 1px 0px black;
