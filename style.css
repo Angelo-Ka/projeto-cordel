@@ -1,0 +1,122 @@
+@charset "UTF-8";
+
+:root {
+    --fonte1: Verdana, Geneva, Tahoma, sans-serif;
+    --fonte2: "Passion One", sans-serif;
+    --fonte3: "Coming Soon", cursive;
+}
+
+* {
+   margin: 0px;
+   padding: 0;
+}
+
+html, body {
+    background-color: lightgray;
+    min-height: 100vh;
+    font-family: var(--fonte1);
+}
+
+header {
+    background-color: black;
+    text-align: center;
+    font-family: var(--fonte2);
+}
+
+header > h1 {
+    padding-top: 50px;
+    color: white;
+    font-variant: small-caps;
+    font-size: 4em;
+}
+
+header > p {
+    padding-bottom: 50px;
+    color: white;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    font-weight: bolder;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+section {
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    padding-left: 35px;
+    line-height: 2em;
+    font-family: var(--fonte3);
+    font-weight: bolder;
+}
+
+section > p {
+    padding-bottom: 2em;
+    font-size: 1.6em;
+}
+
+.normal {
+    background-color: white;
+    color: black;
+}
+
+.imagem {
+    background-color: rgb(107, 106, 106);
+    color: white;
+    background-size: cover;
+    box-shadow: inset 6px 6px 13px 0 rgba(0, 0, 0, 0.479);
+    background-attachment: fixed;
+}
+
+#img01 {
+    background-image: url(imagens/background001.jpg);
+    background-position: right center;
+}
+
+#img02 {
+    background-image: url(imagens/background002.jpg);
+    background-position: right center;
+}
+
+.imagem > p {
+    background-color: rgba(0, 0, 0, 0.479);
+    display: inline-block;
+    padding: 20px;
+    border-radius: 20px;
+    text-shadow: 1px 1px 0px black;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
